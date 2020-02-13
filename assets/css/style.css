@@ -13,7 +13,7 @@ body {
 .name-container {
 
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin-left: 14%;
 }
 
@@ -61,7 +61,7 @@ a:visited {
   margin: auto;
   width: 960px;
   background-color: #ffffff;
-  height: 70vh;
+  height: 150vh;
 
 }
 .about-me {
@@ -72,6 +72,7 @@ a:visited {
 
 .profile-image {
   padding-top: 5px;
+  padding-left: 3px;
   float: left;
   width: 25%;
 }
@@ -89,10 +90,12 @@ a:visited {
   color: #777777;
   float: left;
   width: 75%;
+  margin-left: 20%;
 }
 
 .row {
   margin: 8px -16px;
+  margin-left: 14%;
 }
 
 .row,
@@ -127,7 +130,7 @@ a:visited {
   padding-left: 20px;
   padding-right: 20px;
   bottom: 20px;
-  right: 34px;
+  right: -4px;
   text-align: center;
 }
 
